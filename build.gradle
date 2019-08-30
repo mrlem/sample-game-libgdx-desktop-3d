@@ -11,12 +11,10 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
-
     }
 }
 
 allprojects {
-
     version = '1.0'
     ext {
         appName = "origins"
@@ -40,7 +38,6 @@ allprojects {
 project(":desktop") {
     apply plugin: "kotlin"
 
-
     dependencies {
         implementation project(":core")
         api "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
@@ -52,7 +49,6 @@ project(":desktop") {
 
 project(":core") {
     apply plugin: "kotlin"
-
 
     dependencies {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
