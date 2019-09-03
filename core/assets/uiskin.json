@@ -1,0 +1,35 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	roboto: {
+		file: Roboto-Regular.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	gray: {
+		r: 0.49666667
+		g: 0.49666667
+		b: 0.49666667
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: roboto
+		fontColor: gray
+		downFontColor: gray
+		overFontColor: white
+	}
+}
+}
